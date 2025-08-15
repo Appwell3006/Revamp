@@ -1,0 +1,18 @@
+.autoShow{
+    
+    animation: text-appear both;
+    animation-timeline: view(60% 30%); 
+    animation-range: entry 0% cover 90vh; 
+}
+
+@keyframes text-appear {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
